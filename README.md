@@ -120,7 +120,7 @@ cp config.example.cjs config.cjs
 # 修改 config.cjs 中的域名设置
 
 # 4. 生成配置并部署
-npm run generate-configs  # 生成配置文件
+pnpm run generate-configs  # 生成配置文件
 npm run build             # 构建项目
 npx wrangler deploy       # 部署到 Cloudflare
 ```
